@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billie Eilish - Site Oficial</title>
+    <link rel="stylesheet" href="billie.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Billie Eilish</h1>
+            <p>O universo de Billie Eilish</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#musicas">Músicas</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biografia" class="section">
+        <div class="content">
+            <h2>Biografia</h2>
+            <p>Billie Eilish é uma cantora, compositora e produtora musical americana que ganhou destaque mundialmente por sua sonoridade única e estilo de vida autêntico. Nascida em 18 de dezembro de 2001, em Los Angeles, Califórnia, Billie começou a sua carreira musical ainda muito jovem, lançando sua primeira música, "Ocean Eyes", aos 14 anos, que rapidamente viralizou e atraiu a atenção de grandes produtores musicais.
+
+                Ela é conhecida por seu estilo alternativo, que mistura pop, eletrônica e elementos do rock, além de sua estética única e visual marcante. A música de Billie frequentemente aborda temas como saúde mental, solidão, relacionamentos e o impacto da fama.
+                Prêmios e Reconhecimento
+                Billie Eilish conquistou uma série de prêmios importantes ao longo de sua carreira, destacando-se principalmente pelo impacto cultural que teve na música contemporânea. Entre seus prêmios mais notáveis estão:
+                 <br>
+                1.""Grammy Awards" (2020): <br>
+                
+                Álbum do Ano por "When We All Fall Asleep, Where Do We Go?" <br>
+                Gravação do Ano por "Bad Guy" <br>
+                Canção do Ano por "Bad Guy" <br>
+                Melhor Novo Artista
+                <br>
+                
+                   Esses prêmios foram particularmente históricos porque Billie Eilish se tornou a artista mais jovem da história a ganhar o prêmio de "Álbum do Ano" no Grammy.
+                 <br>
+                   
+                2. "American Music Awards" (2019): <br>
+                
+                    Artista do Ano <br>
+                    Novo Artista Favorito <br>
+                    Canção do Ano por "Bad Guy"
+                   
+                    <br>
+                3. "MTV Video Music Awards" (2019): <br>
+            
+                
+                    Vídeo do Ano por "Bad Guy" <br>
+                    Melhor Artista Novo
+                        <br>
+                   
+                
+                4. "Billboard Music Awards" (2020): <br>
+                
+                    Artista do Ano <br>
+                    Melhor Álbum de Música Pop por "When We All Fall Asleep, Where Do We Go?"
+                   
+                 <br>
+                Além disso, Billie foi premiada com diversos outros reconhecimentos internacionais e é frequentemente destacada em listas de "melhores" e "mais influentes", incluindo a "Time 100" de 2020.
+                
+                Seu impacto vai além dos prêmios. Billie Eilish tem sido uma voz importante na cultura pop, desafiando padrões da indústria e influenciando uma geração com sua música e postura de autenticidade. Ela também tem sido uma defensora da saúde mental e dos direitos das mulheres, além de se manifestar sobre questões ambientais e sociais.
+                
+                Com um estilo musical que continua a evoluir e conquistar novas fronteiras, Billie segue sendo uma das artistas mais inovadoras e influentes de sua geração.
+                </p>
+        </div>
+    </section>
+
+    <section id="musicas" class="section">
+        <div class="content">
+            <h2>Principais Músicas</h2>
+            <ul>
+                <li><a href="https://youtu.be/DyDfgMOUjCI?si=Y9Gp0lxPTaH1drVH" target="_blank">Bad Guy</a></li>
+                <li><a href="https://youtu.be/pbMwTqkKSps?si=EZCoawBw-jn0C7ns" target="_blank">When the party's over</a></li>
+                <li><a href="https://youtu.be/EgBJmlPo8Xw?si=9ABzvwQUNwX_Ihm5" target="_blank">Everything i wanted</a></li>
+                <li><a href="https://youtu.be/HUHC9tYz8ik?si=DtNjQ-dL7dtYLoaD" target="_blank">Bury a Friend</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="fotos" class="section">
+        <div class="content">
+            <h2>Galeria de Fotos</h2>
+            <div class="gallery">
+                <img src="img01.jfif" alt="Foto de Billie 1">
+                <img src="img02.jfif" alt="Foto de Billie 2">
+                <img src="img04.jfif" alt="Foto de Billie 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="content">
+            <h2>Contato</h2>
+            <p>Entre em contato para mais informações e novidades sobre Billie Eilish!</p>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Billie Eilish - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        // Interatividade simples com animação
+        const sections = document.querySelectorAll('.section');
+        window.addEventListener('scroll', () => {
+            sections.forEach(section => {
+                if (section.getBoundingClientRect().top < window.innerHeight / 1.5) {
+                    section.classList.add('visible');
+                }
+            });
+        });
+    </script>
+</body>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="billie.css">
+</head>
+<body>
+<!-- Conteúdo da página -->
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>Redes Sociais:</p>
+    <ul class="social-links">
+      <li><a href="https://www.instagram.com/billieeilish/" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/billieeilish" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/BillieEilish/" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/c/BillieEilish" target="_blank" class="social-icon youtube"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

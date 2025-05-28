@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    .texto-com-imagem {
+        background-image: url('img05.jpg'); /* Substitua pelo caminho da sua imagem */
+        background-size: cover; /* Faz a imagem cobrir todo o elemento */
+        color: white; /* Cor do texto */
+        font-size: 40px; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto */
+        padding: 50px; /* Espaçamento interno */
+        height: 300px; /* Altura do elemento */
+    }
+}
+
+header .logo {
+    color: #1DB954;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    .texto-com-imagem {
+        background-image: url('img05.jpg'); /* Substitua pelo caminho da sua imagem */
+        background-size: cover; /* Faz a imagem cobrir todo o elemento */
+        color: white; /* Cor do texto */
+        font-size: 40px; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto */
+        padding: 50px; /* Espaçamento interno */
+        height: 300px; /* Altura do elemento */
+    }
+}
+
+header nav ul li a:hover {
+    color: #1DB954;
+}
+
+.section {
+    padding: 60px 20px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    text-align: justify;
+            /* Cor inicial do link (não visitado) */
+            a:link {
+                color: rgb(128, 239, 43); /* Cor do link não visitado */
+            }
+    
+            /* Cor do link após ser visitado */
+            a:visited {
+                color: rgb(128, 239, 43); /* Cor do link não visitado */
+            }
+    
+            /* Cor do link quando o cursor passar por cima */
+            a:hover {
+                color: rgb(128, 239, 43); /* Cor do link não visitado */
+            }
+    
+            /* Cor do link quando ele for clicado */
+            a:active {
+                color: rgb(128, 239, 43); /* Cor do link não visitado */
+            }
+}
+
+h2 {
+    color: #1DB954;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#fotos .gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#fotos .gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#fotos .gallery img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #1DB954;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #128c47;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do rodapé */
+  .footer {
+    background-color: #1DB954; /* Cor verde do tema Billie Eilish */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para as redes sociais */
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #BBE1B3; /* Cor de destaque ao passar o mouse */
+  }
+  
+  .instagram {
+    color: #C13584;
+  }
+  
+  .twitter {
+    color: #1DA1F2;
+  }
+  
+  .facebook {
+    color: #1877F2;
+  }
+  
+  .youtube {
+    color: #FF0000;
+  }
